@@ -27,5 +27,9 @@ _This minifies the big files and replaces the files to a minified version_
 5. Add files to stage, commit, and push to your repo
 
 ``` bash
+$ git add .
 
+$ git commit -m "summary here"
+
+$ git push
 ```
