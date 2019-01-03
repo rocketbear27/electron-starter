@@ -1,0 +1,29 @@
+{
+  "name": "electron-starter",
+  "version": "1.0.0",
+  "description": "A remixable electron app starter",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "rimraf cubeOS-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=icon",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rocketbear27/electron-starter.git"
+  },
+  "keywords": [],
+  "author": "RocketBear27",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rocketbear27/electron-starter/issues"
+  },
+  "homepage": "https://github.com/rocketbear27/electron-starter#readme",
+  "devDependencies": {
+    "electron-packager": "13.0.1",
+    "electron-prebuilt": "1.4.13",
+    "gulp": "4.0.0",
+    "gulp-clean-css": "4.0.0",
+    "gulp-htmlmin": "5.0.1",
+    "rimraf": "2.6.2"
+  }
+}
