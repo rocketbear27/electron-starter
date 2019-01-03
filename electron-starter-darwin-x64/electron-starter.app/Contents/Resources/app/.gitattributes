@@ -1,0 +1,6 @@
+electron-starter-darwin-x64 filter=lfs diff=lfs merge=lfs -text
+electron-starter-win32-x64 filter=lfs diff=lfs merge=lfs -text
+electron-starter-linux-x64 filter=lfs diff=lfs merge=lfs -text
+icon.icns filter=lfs diff=lfs merge=lfs -text
+icon.ico filter=lfs diff=lfs merge=lfs -text
+icon.png filter=lfs diff=lfs merge=lfs -text
